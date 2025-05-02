@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "lat": 59.4093471455904,
+    "lng": 18.3058984762798,
+    "name": "Badställe på Kullö",
+    "popupcontent": "Ett trevligt litet badställe på kullö",
+    "icon": "/img/swim.webp",
+    "score": 4
+  },
+  {
+    "id": 2,
+    "lat": 59.4191996650388,
+    "lng": 18.2891863023062,
+    "name": "Lillskär",
+    "popupcontent": "En vacker liten ö med brygga och ett gammalt fort",
+    "icon": null,
+    "score": 5
+  },
+  {
+    "id": 3,
+    "lat": 59.4209804857603,
+    "lng": 18.3012596742964,
+    "name": "Fiske plats",
+    "popupcontent": "Här kan man fiska strömming",
+    "icon": "/img/boat.webp",
+    "score": 4
+  },
+  {
+    "id": 4,
+    "lat": 59.4034897015817,
+    "lng": 18.5757233366126,
+    "name": "Ö utanför Grinda",
+    "popupcontent": "En vacker ö utanför grinda",
+    "icon": null,
+    "score": 
+  },
+  {
+    "id": 5,
+    "lat": 59.4269167777501,
+    "lng": 18.2969138246095,
+    "name": "Fin utsiktsplats",
+    "popupcontent": "En fin plats att titta ut över havet",
+    "icon": null,
+    "score": 3
+  },
+  {
+    "id": 6,
+    "lat": 59.3926497771969,
+    "lng": 18.4396033879901,
+    "name": "Syrran & jag",
+    "popupcontent": "Här finns en trevligt restaurang med bra utsikt över oxdjupet",
+    "icon": "/img/food.webp",
+    "score": 4
+  },
+  {
+    "id": 7,
+    "lat": 59.4338916061229,
+    "lng": 18.3097668126996,
+    "name": "Badviken",
+    "popupcontent": "Här kan man bada, grilla eller sätta kajak i havet",
+    "icon": null,
+    "score": 4
+  },
+  {
+    "id": 8,
+    "lat": 59.3960678802149,
+    "lng": 18.2674443529948,
+    "name": "Rastplats",
+    "popupcontent": "Rastplats brevid en sjö",
+    "icon": null,
+    "score": 
+  },
+  {
+    "id": 9,
+    "lat": 59.4037642834095,
+    "lng": 18.2059281885167,
+    "name": "Träsksjön",
+    "popupcontent": "Sjö mitt i bogesund",
+    "icon": null,
+    "score": 
+  },
+  {
+    "id": 10,
+    "lat": 59.43381477175,
+    "lng": 18.4268313411674,
+    "name": "Kalvholmen",
+    "popupcontent": "Fint ställe att lägga till med båt",
+    "icon": "/img/boat.webp",
+    "score": 
+  },
+  {
+    "id": 11,
+    "lat": 59.4417548661776,
+    "lng": 18.3625809603384,
+    "name": "Östra Trällhavsgrundet",
+    "popupcontent": "Fin ö i mitten av trälhavet som nu är full av skarvar",
+    "icon": null,
+    "score": 
+  },
+  {
+    "id": 12,
+    "lat": 59.423217,
+    "lng": 18.380073,
+    "name": "Ekholmen",
+    "popupcontent": "Ö med fin strand där man kanske kan lägga till med båt",
+    "icon": "/img/boat.webp",
+    "score": 
+  },
+  {
+    "id": 13,
+    "lat": 59.437691,
+    "lng": 18.3550033,
+    "name": "Moholmen",
+    "popupcontent": "En fiskebåt som har sjunkit",
+    "icon": null,
+    "score": 
+  },
+  {
+    "id": 14,
+    "lat": 59.401872,
+    "lng": 18.354892,
+    "name": "Vaxholms Hamn",
+    "popupcontent": "Hamn där man kan ta båtar ut i skärgården",
+    "icon": null,
+    "score": 
+  },
+  {
+    "id": 15,
+    "lat": 59.457919,
+    "lng": 18.129785,
+    "name": "Antennvägen",
+    "popupcontent": "Parkering",
+    "icon": null,
+    "score": 4
+  },
+  {
+    "id": 16,
+    "lat": 59.464352,
+    "lng": 18.115212,
+    "name": "Skavlötens bunkrar",
+    "popupcontent": "Gammal bunker",
+    "icon": null,
+    "score":
+  },
+  {
+    "id": 17,
+    "lat": 59.50693,
+    "lng": 18.177851,
+    "name": "Gillingebanan",
+    "popupcontent": "körskola",
+    "icon": null,
+    "score": 
+  },
+  {
+    "id": 18,
+    "lat": 59.398872,
+    "lng": 18.193031,
+    "name": "Stortallen",
+    "popupcontent": "Stort träd",
+    "icon": null,
+    "score": 
+  },
+  {
+    "id": 19,
+    "lat": 59.443015,
+    "lng": 18.098557,
+    "name": "KFC",
+    "popupcontent": "Friterad kyckling",
+    "icon": "/img/food.webp",
+    "score": 3
+  },
+  {
+    "id": 20,
+    "lat": 59.442825,
+    "lng": 18.135339,
+    "name": "Hägernäs brygga",
+    "popupcontent": "Fin brygga ",
+    "icon": null,
+    "score": 3
+  },
+  {
+    "id": 21,
+    "lat": 59.387342,
+    "lng": 18.290536,
+    "name": "Bogesund brygga",
+    "popupcontent": "Brygga",
+    "icon": null,
+    "score": 
+  },
+  {
+    "id": 22,
+    "lat": 59.438935,
+    "lng": 18.309397,
+    "name": "Resarö Brygga",
+    "popupcontent": "Brygga",
+    "icon": "/img/swim.webp",
+    "score": 
+  },
+  {
+    "id": 23,
+    "lat": 59.439594,
+    "lng": 18.150321,
+    "name": "Alholmsudd",
+    "popupcontent": "Fartyg som sjunkit",
+    "icon": null,
+    "score": 
+  },
+  {
+    "id": 24,
+    "lat": 59.4178138991173,
+    "lng": 18.2879749613761,
+    "name": "Storskär",
+    "popupcontent": "Fin liten ö",
+    "icon": null,
+    "score": 4
+  },
+  {
+    "id": 25,
+    "lat": 59.392358128836,
+    "lng": 18.3293397452635,
+    "name": "Tenöbadet",
+    "popupcontent": "tenöbadet på bogesund",
+    "icon": "/img/swim.webp",
+    "score": 
+  },
+  {
+    "id": 26,
+    "lat": 59.3974664998445,
+    "lng": 18.0895934216492,
+    "name": "Monrad's",
+    "popupcontent": "Trevlig Resturang i Djursholm",
+    "icon": "/img/food.webp",
+    "score": 4
+  },
+  {
+    "id": 27,
+    "lat": 59.4033868874416,
+    "lng": 18.3363251757591,
+    "name": "Vaxholms Pizzeria",
+    "popupcontent": "Trevlig liten pizzeria",
+    "icon": "/img/food.webp",
+    "score": 3
+  },
+  {
+    "id": 28,
+    "lat": 59.3301260670665,
+    "lng": 18.0558057852315,
+    "name": "Resturang Waterfront",
+    "popupcontent": "Super god mat som buffe till lunch",
+    "icon": "/img/food.webp",
+    "score": 4
+  },
+  {
+    "id": 29,
+    "lat": 59.3292559942089,
+    "lng": 18.0662232384207,
+    "name": "Resturang Pickwick",
+    "popupcontent": "Lunch resturang med bra mat och trevlig personal till bra pris.\nDagens lunch 149 SEK",
+    "icon": "/img/food.webp",
+    "score": 3
+  },
+  {
+    "id": 30,
+    "lat": 59.4044745672669,
+    "lng": 18.3461380004883,
+    "name": "Parkgrillen",
+    "popupcontent": "Trevlig restaurang som säljer hamburgare",
+    "icon": "/img/food.webp",
+    "score": 3
+  },
+  {
+    "id": 31,
+    "lat": 59.144842283432,
+    "lng": 17.7895528078079,
+    "name": "Våffelstuga",
+    "popupcontent": "Trevligt ställe där de säljer våfflor",
+    "icon": "/img/food.webp",
+    "score": 4
+  },
+  {
+    "id": 32,
+    "lat": 0,
+    "lng": 0,
+    "name": "0,0",
+    "popupcontent": "test",
+    "icon": "/img/swim.webp",
+    "score": 5
+  },
+  {
+    "id": 33,
+    "lat": 59.4564832672064,
+    "lng": 18.1025987863541,
+    "name": "Fin park",
+    "popupcontent": "Fin park med dagvattenanläggning som lockar många djur. Många parkbänkar att sitta på runt vattnet",
+    "icon": null,
+    "score": 5
+  },
+  {
+    "id": 34,
+    "lat": 59.3933438312554,
+    "lng": 18.2844740152359,
+    "name": "Bogesunds slott",
+    "popupcontent": "Slott som byggdes på 1600-talet av Per Brahe den yngre",
+    "icon": null,
+    "score": 5
+  }
+]
