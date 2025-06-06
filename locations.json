@@ -304,5 +304,14 @@
     "popupcontent": "Slott som byggdes på 1600-talet av Per Brahe den yngre",
     "icon": null,
     "score": 5
+  },
+  {
+    "id": 35,
+    "lat": 59.39263788877613,
+    "lng": 18.190054345663604,
+    "name": "Grillplats",
+    "popupcontent": "Grillplats på bogesund med fin utsikt",
+    "icon": null,
+    "score": 5
   }
 ]
