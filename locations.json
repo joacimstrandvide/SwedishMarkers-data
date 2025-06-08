@@ -158,7 +158,7 @@
     "lng": 18.193031,
     "name": "Stortallen",
     "popupcontent": "Stort träd",
-    "icon": null,
+    "icon": "/img/nature.webp",
     "score": null
   },
   {
@@ -212,7 +212,7 @@
     "lng": 18.2879749613761,
     "name": "Storskär",
     "popupcontent": "Fin liten ö",
-    "icon": null,
+    "icon": "/img/boat.webp",
     "score": 4
   },
   {
@@ -293,7 +293,7 @@
     "lng": 18.1025987863541,
     "name": "Fin park",
     "popupcontent": "Fin park med dagvattenanläggning som lockar många djur. Många parkbänkar att sitta på runt vattnet",
-    "icon": null,
+    "icon": "/img/nature.webp",
     "score": 5
   },
   {
@@ -302,7 +302,7 @@
     "lng": 18.2844740152359,
     "name": "Bogesunds slott",
     "popupcontent": "Slott som byggdes på 1600-talet av Per Brahe den yngre",
-    "icon": null,
+    "icon": "/img/historic.webp",
     "score": 5
   },
   {
@@ -311,7 +311,7 @@
     "lng": 18.190054345663604,
     "name": "Grillplats",
     "popupcontent": "Grillplats på bogesund med fin utsikt",
-    "icon": null,
+    "icon": "/img/nature.webp",
     "score": 5
   },
   {
@@ -320,7 +320,7 @@
     "lng": 12.676254,
     "name": "Old Tjikko",
     "popupcontent": "Världens äldsta träd",
-    "icon": null,
+    "icon": "/img/nature.webp",
     "score": 5
   }
 ]
