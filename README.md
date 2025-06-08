@@ -1,5 +1,12 @@
 ## SwedishMarkers
 
-Data for SwedishMarkers
+Data för SwedishMarkers
 
-This project originally used Supabase for full CRUD support and authentication. For simplicity and uptime, it's now powered by a GitHub-hosted JSON file.
+Detta projekt använde ursprungligen Supabase för full CRUD-stöd och autentisering. För enkelhet drivs det nu av en JSON-fil.
+
+# Ikon hjälp
+Båt = /img/boat.webp
+Mat = img/food.webp
+Simning = /img/swim.webp
+Historiskt = /img/historic.webp
+Natur = /img/nature.webp
