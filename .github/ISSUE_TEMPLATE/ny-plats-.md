@@ -1,4 +1,3 @@
----
 name: 'Ny Plats'
 about: Förslag för en ny plats på kartan
 title: Ny plats: [namn här]
@@ -58,4 +57,4 @@ body:
         - "4"
         - "5"
     validations:
-      required: f
+      required: false
