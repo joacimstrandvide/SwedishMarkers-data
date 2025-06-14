@@ -6,7 +6,6 @@ on:
 
 jobs:
   add-location:
-    if: contains(github.event.issue.labels.*.name, 'new-location')
     runs-on: ubuntu-latest
 
     steps:
@@ -19,17 +18,17 @@ jobs:
         BODY=$(jq -r .issue.body "$GITHUB_EVENT_PATH")
 
         get_field() {
-          echo "$BODY" | grep -oP "\*\*$1:\*\*\s*\K.*" | head -n 1
+          echo "$BODY" | grep -A1 "^$1$" | tail -n1 | tr -d '\r'
         }
 
         NAME="$(get_field "Namn")"
         DESC="$(get_field "Beskrivning")"
-        LAT="$(get_field "Latitude \(lat\)")"
-        LNG="$(get_field "Longitude \(lng\)")"
+        LAT="$(get_field "Latitude (lat)")"
+        LNG="$(get_field "Longitude (lng)")"
         ICON="$(get_field "Ikon")"
         SCORE="$(get_field "Poäng")"
 
-        # Ensure ICON and SCORE are valid JSON, convert empty to null
+        # Convert empty to null, and properly escape values for JSON
         [ -z "$ICON" ] && ICON="null" || ICON=$(jq -R <<< "$ICON")
         [ -z "$SCORE" ] && SCORE="null" || SCORE=$(jq -R <<< "$SCORE")
 
