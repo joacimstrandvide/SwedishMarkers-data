@@ -1,74 +1,76 @@
 name: Add Location from Issue
+
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 jobs:
   add-location:
+    if: contains(github.event.issue.labels.*.name, 'new-location')
     runs-on: ubuntu-latest
-    if: github.event.issue.title == 'Ny Plats'
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Set up Git
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+    - name: Parse issue body and add location
+      shell: bash
+      run: |
+        BODY=$(jq -r .issue.body "$GITHUB_EVENT_PATH")
 
-      - name: Parse issue body and update JSON
-        id: parse
-        run: |
-          BODY=$(jq -r .issue.body "$GITHUB_EVENT_PATH")
+        get_field() {
+          echo "$BODY" | grep -oP "\*\*$1:\*\*\s*\K.*" | head -n 1
+        }
 
-          NAME=$(echo "$BODY" | grep -A1 '**Namn:**' | tail -n1 | xargs)
-          DESC=$(echo "$BODY" | grep -A1 '**Beskrivning:**' | tail -n1 | xargs)
-          LAT=$(echo "$BODY" | grep -A1 '**Latitude (lat):**' | tail -n1 | xargs)
-          LNG=$(echo "$BODY" | grep -A1 '**Longitude (lng):**' | tail -n1 | xargs)
-          ICON=$(echo "$BODY" | grep -A1 '**Ikon:**' | tail -n1 | xargs)
-          SCORE=$(echo "$BODY" | grep -A1 '**Poäng:**' | tail -n1 | xargs)
+        NAME="$(get_field "Namn")"
+        DESC="$(get_field "Beskrivning")"
+        LAT="$(get_field "Latitude \(lat\)")"
+        LNG="$(get_field "Longitude \(lng\)")"
+        ICON="$(get_field "Ikon")"
+        SCORE="$(get_field "Poäng")"
 
-          echo "Parsed values:"
-          echo "Name: $NAME"
-          echo "Desc: $DESC"
-          echo "Lat: $LAT"
-          echo "Lng: $LNG"
-          echo "Icon: $ICON"
-          echo "Score: $SCORE"
+        # Ensure ICON and SCORE are valid JSON, convert empty to null
+        [ -z "$ICON" ] && ICON="null" || ICON=$(jq -R <<< "$ICON")
+        [ -z "$SCORE" ] && SCORE="null" || SCORE=$(jq -R <<< "$SCORE")
 
-          if [[ -z "$NAME" || -z "$LAT" || -z "$LNG" ]]; then
-            echo "Missing required fields"
-            exit 1
-          fi
+        echo "Parsed values:"
+        echo "Name: $NAME"
+        echo "Desc: $DESC"
+        echo "Lat: $LAT"
+        echo "Lng: $LNG"
+        echo "Icon: $ICON"
+        echo "Score: $SCORE"
 
-          # Find the highest existing ID
-          MAX_ID=$(jq 'map(.id) | max' locations.json)
-          NEW_ID=$((MAX_ID + 1))
+        # Create new JSON object for the location
+        NEW_ITEM=$(jq -n \
+          --arg id "$(date +%s)" \
+          --arg name "$NAME" \
+          --arg desc "$DESC" \
+          --arg lat "$LAT" \
+          --arg lng "$LNG" \
+          --argjson icon "$ICON" \
+          --argjson score "$SCORE" \
+          '{
+            id: ($id | tonumber),
+            lat: ($lat | tonumber),
+            lng: ($lng | tonumber),
+            name: $name,
+            popupcontent: $desc,
+            icon: $icon,
+            score: $score
+          }')
 
-          # Create new entry
-          NEW_ENTRY=$(jq -n \
-            --argjson id "$NEW_ID" \
-            --arg lat "$LAT" \
-            --arg lng "$LNG" \
-            --arg name "$NAME" \
-            --arg popupcontent "$DESC" \
-            --arg icon "$ICON" \
-            --arg score "$SCORE" \
-            '{
-              id: $id,
-              lat: ($lat | tonumber),
-              lng: ($lng | tonumber),
-              name: $name,
-              popupcontent: $popupcontent,
-              icon: ($icon | length > 0 ? $icon : null),
-              score: ($score | test("^[0-9]+$")? | if . then ($score | tonumber) else null end)
-            }')
+        echo "New item JSON:"
+        echo "$NEW_ITEM"
 
-          echo "New entry: $NEW_ENTRY"
+        # Add the new item to locations.json
+        jq ". + [ $NEW_ITEM ]" locations.json > locations_tmp.json
+        mv locations_tmp.json locations.json
 
-          # Append new entry to JSON array
-          jq ". + [ $NEW_ENTRY ]" locations.json > tmp.json && mv tmp.json locations.json
+        # Commit and push changes
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add locations.json
-          git commit -m "Lade till ny plats från issue #${{ github.event.issue.number }}"
-          git push
+        git add locations.json
+        git commit -m "Lade till ny plats: $NAME"
+        git push
