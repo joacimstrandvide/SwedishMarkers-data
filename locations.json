@@ -322,5 +322,23 @@
     "popupcontent": "Världens äldsta träd",
     "icon": "/img/nature.webp",
     "score": 5
+  },
+  {
+    "id": 37,
+    "lat": 59.397974,
+    "lng": 18.321360,
+    "name": "Pålsundsbatteriet",
+    "popupcontent": "Pålsundsbatteriet med en vacker utsikt över Vaxholm och havet",
+    "icon": "/img/historic.webp",
+    "score": 5
+  },
+  {
+    "id": 38,
+    "lat": 59.410719,
+    "lng": 18.301442,
+    "name": "Badstrand på kullö",
+    "popupcontent": "En fin liten badstrand med brygga",
+    "icon": "/img/swim.webp",
+    "score": 5
   }
 ]
