@@ -8,3 +8,5 @@ Data för SwedishMarkers
 - Simning = /img/swim.webp
 - Historiskt = /img/historic.webp
 - Natur = /img/nature.webp
+- Kayak = /img/kayak.webp
+- Parkering = /img/parking.webp
