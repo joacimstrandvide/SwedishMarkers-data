@@ -131,7 +131,7 @@
     "lng": 18.129785,
     "name": "Antennvägen",
     "popupcontent": "Parkering",
-    "icon": null,
+    "icon": "img/parking.webp",
     "score": 4
   },
   {
@@ -339,6 +339,15 @@
     "name": "Badstrand på kullö",
     "popupcontent": "En fin liten badstrand med brygga",
     "icon": "/img/swim.webp",
+    "score": 5
+  },
+  {
+    "id": 39,
+    "lat": 59.448328311464365,
+    "lng": 18.197639531445535,
+    "name": "Östra Ryds Kyrka",
+    "popupcontent": "Parkering vid Östra Ryds kyrka",
+    "icon": "/img/parking.webp",
     "score": 5
   }
 ]
