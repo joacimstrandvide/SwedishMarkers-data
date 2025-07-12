@@ -131,7 +131,7 @@
     "lng": 18.129785,
     "name": "Antennvägen",
     "popupcontent": "Parkering",
-    "icon": "img/parking.webp",
+    "icon": "/img/parking.webp",
     "score": 4
   },
   {
@@ -145,15 +145,6 @@
   },
   {
     "id": 17,
-    "lat": 59.50693,
-    "lng": 18.177851,
-    "name": "Gillingebanan",
-    "popupcontent": "körskola",
-    "icon": null,
-    "score": null
-  },
-  {
-    "id": 18,
     "lat": 59.398872,
     "lng": 18.193031,
     "name": "Stortallen",
@@ -162,7 +153,7 @@
     "score": null
   },
   {
-    "id": 19,
+    "id": 18,
     "lat": 59.443015,
     "lng": 18.098557,
     "name": "KFC",
@@ -171,7 +162,7 @@
     "score": 3
   },
   {
-    "id": 20,
+    "id": 19,
     "lat": 59.442825,
     "lng": 18.135339,
     "name": "Hägernäs brygga",
@@ -180,7 +171,7 @@
     "score": 3
   },
   {
-    "id": 21,
+    "id": 20,
     "lat": 59.387342,
     "lng": 18.290536,
     "name": "Bogesund brygga",
@@ -189,7 +180,7 @@
     "score": null
   },
   {
-    "id": 22,
+    "id": 21,
     "lat": 59.438935,
     "lng": 18.309397,
     "name": "Resarö Brygga",
@@ -198,7 +189,7 @@
     "score": null
   },
   {
-    "id": 23,
+    "id": 22,
     "lat": 59.439594,
     "lng": 18.150321,
     "name": "Alholmsudd",
@@ -207,7 +198,7 @@
     "score": null
   },
   {
-    "id": 24,
+    "id": 23,
     "lat": 59.4178138991173,
     "lng": 18.2879749613761,
     "name": "Storskär",
@@ -216,7 +207,7 @@
     "score": 4
   },
   {
-    "id": 25,
+    "id": 24,
     "lat": 59.392358128836,
     "lng": 18.3293397452635,
     "name": "Tenöbadet",
@@ -225,7 +216,7 @@
     "score": null
   },
   {
-    "id": 26,
+    "id": 25,
     "lat": 59.3974664998445,
     "lng": 18.0895934216492,
     "name": "Monrad's",
@@ -234,7 +225,7 @@
     "score": 4
   },
   {
-    "id": 27,
+    "id": 26,
     "lat": 59.4033868874416,
     "lng": 18.3363251757591,
     "name": "Vaxholms Pizzeria",
@@ -243,7 +234,7 @@
     "score": 3
   },
   {
-    "id": 28,
+    "id": 27,
     "lat": 59.3301260670665,
     "lng": 18.0558057852315,
     "name": "Resturang Waterfront",
@@ -252,7 +243,7 @@
     "score": 4
   },
   {
-    "id": 29,
+    "id": 28,
     "lat": 59.3292559942089,
     "lng": 18.0662232384207,
     "name": "Resturang Pickwick",
@@ -261,7 +252,7 @@
     "score": 3
   },
   {
-    "id": 30,
+    "id": 29,
     "lat": 59.4044745672669,
     "lng": 18.3461380004883,
     "name": "Parkgrillen",
@@ -270,7 +261,7 @@
     "score": 3
   },
   {
-    "id": 31,
+    "id": 30,
     "lat": 59.144842283432,
     "lng": 17.7895528078079,
     "name": "Våffelstuga",
@@ -279,16 +270,7 @@
     "score": 4
   },
   {
-    "id": 32,
-    "lat": 0,
-    "lng": 0,
-    "name": "0,0",
-    "popupcontent": "test",
-    "icon": "/img/swim.webp",
-    "score": 5
-  },
-  {
-    "id": 33,
+    "id": 31,
     "lat": 59.4564832672064,
     "lng": 18.1025987863541,
     "name": "Fin park",
@@ -297,7 +279,7 @@
     "score": 5
   },
   {
-    "id": 34,
+    "id": 32,
     "lat": 59.3933438312554,
     "lng": 18.2844740152359,
     "name": "Bogesunds slott",
@@ -306,7 +288,7 @@
     "score": 5
   },
   {
-    "id": 35,
+    "id": 33,
     "lat": 59.39263788877613,
     "lng": 18.190054345663604,
     "name": "Grillplats",
@@ -315,7 +297,7 @@
     "score": 5
   },
   {
-    "id": 36,
+    "id": 34,
     "lat": 61.639558,
     "lng": 12.676254,
     "name": "Old Tjikko",
@@ -324,30 +306,48 @@
     "score": 5
   },
   {
-    "id": 37,
+    "id": 35,
     "lat": 59.397974,
     "lng": 18.321360,
     "name": "Pålsundsbatteriet",
     "popupcontent": "Pålsundsbatteriet med en vacker utsikt över Vaxholm och havet",
     "icon": "/img/historic.webp",
-    "score": 5
+    "score": 4
   },
   {
-    "id": 38,
+    "id": 36,
     "lat": 59.410719,
     "lng": 18.301442,
     "name": "Badstrand på kullö",
     "popupcontent": "En fin liten badstrand med brygga",
     "icon": "/img/swim.webp",
-    "score": 5
+    "score": 4
   },
   {
-    "id": 39,
+    "id": 37,
     "lat": 59.448328311464365,
     "lng": 18.197639531445535,
     "name": "Östra Ryds Kyrka",
     "popupcontent": "Parkering vid Östra Ryds kyrka",
     "icon": "/img/parking.webp",
+    "score": 4
+  },
+  {
+    "id": 38,
+    "lat": 59.54105906791459,
+    "lng": 18.169697920129813,
+    "name": "Angarnssjöängens parkering",
+    "popupcontent": "Parkering vid Angarnssjöängen",
+    "icon": "/img/parking.webp",
+    "score": 4
+  },
+  {
+    "id": 39,
+    "lat": 59.54691538993621,
+    "lng": 18.161570667833374,
+    "name": "Angarnssjöängen",
+    "popupcontent": "Angarnssjöängens naturreservat",
+    "icon": "/img/nature.webp",
     "score": 5
   }
 ]
