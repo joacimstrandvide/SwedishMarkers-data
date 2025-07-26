@@ -349,5 +349,14 @@
     "popupcontent": "Angarnssjöängens naturreservat",
     "icon": "/img/nature.webp",
     "score": 5
+  }, 
+   {
+    "id": 40,
+    "lat": 59.473111,
+    "lng": 18.141154,
+    "name": "Ullna badplats",
+    "popupcontent": "Badplats vid ullnasjön",
+    "icon": "/img/nature.webp",
+    "score": 5
   }
 ]
