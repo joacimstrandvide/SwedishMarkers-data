@@ -327,7 +327,7 @@
     "id": 37,
     "lat": 59.448328311464365,
     "lng": 18.197639531445535,
-    "name": "Östra Ryds Kyrka",
+    "name": "Parkering",
     "popupcontent": "Parkering vid Östra Ryds kyrka",
     "icon": "/img/parking.webp",
     "score": 4
@@ -336,7 +336,7 @@
     "id": 38,
     "lat": 59.54105906791459,
     "lng": 18.169697920129813,
-    "name": "Angarnssjöängens parkering",
+    "name": "Parkering",
     "popupcontent": "Parkering vid Angarnssjöängen",
     "icon": "/img/parking.webp",
     "score": 4
@@ -357,6 +357,24 @@
     "name": "Ullna badplats",
     "popupcontent": "Badplats vid ullnasjön",
     "icon": "/img/swim.webp",
+    "score": 5
+  },
+   {
+    "id": 41,
+    "lat": 59.45901914335809,
+    "lng": 18.09894389007552,
+    "name": "Parkering",
+    "popupcontent": "Parkering vid Rönningesjön",
+    "icon": "/img/parking.webp",
+    "score": 5
+  },
+  {
+    "id": 42,
+    "lat": 59.44451379621899,
+    "lng": 18.127189697834144,
+    "name": "Parkering",
+    "popupcontent": "Parkering vid Hägernäs",
+    "icon": "/img/parking.webp",
     "score": 5
   }
 ]
