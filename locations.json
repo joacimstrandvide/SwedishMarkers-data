@@ -5,7 +5,7 @@
     "lng": 18.3058984762798,
     "name": "Badställe på Kullö",
     "popupcontent": "Ett trevligt litet badställe på kullö",
-    "icon": "/img/swim.webp",
+    "icon": "swim.webp",
     "score": 4
   },
   {
@@ -14,7 +14,7 @@
     "lng": 18.2891863023062,
     "name": "Lillskär",
     "popupcontent": "En vacker liten ö med brygga och ett gammalt fort",
-    "icon": "/img/boat.webp",
+    "icon": "boat.webp",
     "score": 5
   },
   {
@@ -23,7 +23,7 @@
     "lng": 18.3012596742964,
     "name": "Fiske plats",
     "popupcontent": "Här kan man fiska strömming",
-    "icon": "/img/boat.webp",
+    "icon": "boat.webp",
     "score": 4
   },
   {
@@ -32,7 +32,7 @@
     "lng": 18.5757233366126,
     "name": "Ö utanför Grinda",
     "popupcontent": "En vacker ö utanför grinda",
-    "icon": "/img/boat.webp",
+    "icon": "boat.webp",
     "score": null
   },
   {
@@ -50,7 +50,7 @@
     "lng": 18.4396033879901,
     "name": "Syrran & jag",
     "popupcontent": "Här finns en trevligt restaurang med bra utsikt över oxdjupet",
-    "icon": "/img/food.webp",
+    "icon": "food.webp",
     "score": 4
   },
   {
@@ -59,7 +59,7 @@
     "lng": 18.3097668126996,
     "name": "Badviken",
     "popupcontent": "Här kan man bada, grilla eller sätta kajak i havet",
-    "icon": "/img/kayak.webp",
+    "icon": "kayak.webp",
     "score": 4
   },
   {
@@ -68,7 +68,7 @@
     "lng": 18.2674443529948,
     "name": "Rastplats",
     "popupcontent": "Rastplats brevid en sjö",
-    "icon": "/img/nature.webp",
+    "icon": "nature.webp",
     "score": null
   },
   {
@@ -77,7 +77,7 @@
     "lng": 18.2059281885167,
     "name": "Träsksjön",
     "popupcontent": "Sjö mitt i bogesund",
-    "icon": "/img/nature.webp",
+    "icon": "nature.webp",
     "score": null
   },
   {
@@ -86,7 +86,7 @@
     "lng": 18.4268313411674,
     "name": "Kalvholmen",
     "popupcontent": "Fint ställe att lägga till med båt",
-    "icon": "/img/boat.webp",
+    "icon": "boat.webp",
     "score": null
   },
   {
@@ -104,7 +104,7 @@
     "lng": 18.380073,
     "name": "Ekholmen",
     "popupcontent": "Ö med fin strand där man kanske kan lägga till med båt",
-    "icon": "/img/boat.webp",
+    "icon": "boat.webp",
     "score": null
   },
   {
@@ -131,7 +131,7 @@
     "lng": 18.129785,
     "name": "Antennvägen",
     "popupcontent": "Parkering",
-    "icon": "/img/parking.webp",
+    "icon": "parking.webp",
     "score": 4
   },
   {
@@ -149,7 +149,7 @@
     "lng": 18.193031,
     "name": "Stortallen",
     "popupcontent": "Stort träd",
-    "icon": "/img/nature.webp",
+    "icon": "nature.webp",
     "score": null
   },
   {
@@ -158,7 +158,7 @@
     "lng": 18.098557,
     "name": "KFC",
     "popupcontent": "Friterad kyckling",
-    "icon": "/img/food.webp",
+    "icon": "food.webp",
     "score": 3
   },
   {
@@ -185,7 +185,7 @@
     "lng": 18.309397,
     "name": "Resarö Brygga",
     "popupcontent": "Brygga",
-    "icon": "/img/swim.webp",
+    "icon": "swim.webp",
     "score": null
   },
   {
@@ -203,7 +203,7 @@
     "lng": 18.2879749613761,
     "name": "Storskär",
     "popupcontent": "Fin liten ö",
-    "icon": "/img/boat.webp",
+    "icon": "boat.webp",
     "score": 4
   },
   {
@@ -212,7 +212,7 @@
     "lng": 18.3293397452635,
     "name": "Tenöbadet",
     "popupcontent": "tenöbadet på bogesund",
-    "icon": "/img/swim.webp",
+    "icon": "swim.webp",
     "score": null
   },
   {
@@ -221,7 +221,7 @@
     "lng": 18.0895934216492,
     "name": "Monrad's",
     "popupcontent": "Trevlig Resturang i Djursholm",
-    "icon": "/img/food.webp",
+    "icon": "food.webp",
     "score": 4
   },
   {
@@ -230,7 +230,7 @@
     "lng": 18.3363251757591,
     "name": "Vaxholms Pizzeria",
     "popupcontent": "Trevlig liten pizzeria",
-    "icon": "/img/food.webp",
+    "icon": "food.webp",
     "score": 3
   },
   {
@@ -239,7 +239,7 @@
     "lng": 18.0558057852315,
     "name": "Resturang Waterfront",
     "popupcontent": "Super god mat som buffe till lunch",
-    "icon": "/img/food.webp",
+    "icon": "food.webp",
     "score": 4
   },
   {
@@ -248,7 +248,7 @@
     "lng": 18.0662232384207,
     "name": "Resturang Pickwick",
     "popupcontent": "Lunch resturang med bra mat och trevlig personal till bra pris.\nDagens lunch 149 SEK",
-    "icon": "/img/food.webp",
+    "icon": "food.webp",
     "score": 3
   },
   {
@@ -257,7 +257,7 @@
     "lng": 18.3461380004883,
     "name": "Parkgrillen",
     "popupcontent": "Trevlig restaurang som säljer hamburgare",
-    "icon": "/img/food.webp",
+    "icon": "food.webp",
     "score": 3
   },
   {
@@ -266,7 +266,7 @@
     "lng": 17.7895528078079,
     "name": "Våffelstuga",
     "popupcontent": "Trevligt ställe där de säljer våfflor",
-    "icon": "/img/food.webp",
+    "icon": "food.webp",
     "score": 4
   },
   {
@@ -275,7 +275,7 @@
     "lng": 18.1025987863541,
     "name": "Fin park",
     "popupcontent": "Fin park med dagvattenanläggning som lockar många djur. Många parkbänkar att sitta på runt vattnet",
-    "icon": "/img/nature.webp",
+    "icon": "nature.webp",
     "score": 5
   },
   {
@@ -284,7 +284,7 @@
     "lng": 18.2844740152359,
     "name": "Bogesunds slott",
     "popupcontent": "Slott som byggdes på 1600-talet av Per Brahe den yngre",
-    "icon": "/img/historic.webp",
+    "icon": "historic.webp",
     "score": 5
   },
   {
@@ -293,7 +293,7 @@
     "lng": 18.190054345663604,
     "name": "Grillplats",
     "popupcontent": "Grillplats på bogesund med fin utsikt",
-    "icon": "/img/nature.webp",
+    "icon": "nature.webp",
     "score": 5
   },
   {
@@ -302,7 +302,7 @@
     "lng": 12.676254,
     "name": "Old Tjikko",
     "popupcontent": "Världens äldsta träd",
-    "icon": "/img/nature.webp",
+    "icon": "nature.webp",
     "score": 5
   },
   {
@@ -311,7 +311,7 @@
     "lng": 18.321360,
     "name": "Pålsundsbatteriet",
     "popupcontent": "Pålsundsbatteriet med en vacker utsikt över Vaxholm och havet",
-    "icon": "/img/historic.webp",
+    "icon": "historic.webp",
     "score": 4
   },
   {
@@ -320,7 +320,7 @@
     "lng": 18.301442,
     "name": "Badstrand på kullö",
     "popupcontent": "En fin liten badstrand med brygga",
-    "icon": "/img/swim.webp",
+    "icon": "swim.webp",
     "score": 4
   },
   {
@@ -329,7 +329,7 @@
     "lng": 18.197639531445535,
     "name": "Parkering",
     "popupcontent": "Parkering vid Östra Ryds kyrka",
-    "icon": "/img/parking.webp",
+    "icon": "parking.webp",
     "score": 4
   },
   {
@@ -338,7 +338,7 @@
     "lng": 18.169697920129813,
     "name": "Parkering",
     "popupcontent": "Parkering vid Angarnssjöängen",
-    "icon": "/img/parking.webp",
+    "icon": "parking.webp",
     "score": 4
   },
   {
@@ -347,7 +347,7 @@
     "lng": 18.161570667833374,
     "name": "Angarnssjöängen",
     "popupcontent": "Angarnssjöängens naturreservat",
-    "icon": "/img/nature.webp",
+    "icon": "nature.webp",
     "score": 5
   }, 
    {
@@ -356,7 +356,7 @@
     "lng": 18.141154,
     "name": "Ullna badplats",
     "popupcontent": "Badplats vid ullnasjön",
-    "icon": "/img/swim.webp",
+    "icon": "swim.webp",
     "score": 5
   },
    {
@@ -365,7 +365,7 @@
     "lng": 18.09894389007552,
     "name": "Parkering",
     "popupcontent": "Parkering vid Rönningesjön",
-    "icon": "/img/parking.webp",
+    "icon": "parking.webp",
     "score": 5
   },
   {
@@ -374,7 +374,7 @@
     "lng": 18.127189697834144,
     "name": "Parkering",
     "popupcontent": "Parkering vid Hägernäs",
-    "icon": "/img/parking.webp",
+    "icon": "parking.webp",
     "score": 5
   }
 ]
